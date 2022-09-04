@@ -1,0 +1,86 @@
+#include<iostream>
+#include<stdio.h>
+#include <cstring>
+
+using namespace std;
+
+
+int main(){
+    
+    
+int i=0,j=0,cnt1=0,cnt2,t=0,a=0,b,c,k=0,n1=-1,n2,sav,s,e,d;
+    int x[200],y[200],z[200];
+    int max=0;
+    int index;
+     
+    int sum=0;
+
+    int r=0,n=0,nd=0,n1d=0,n2d=0;
+    
+    
+//    string str1,str2;    
+    
+    
+//    printf("enter day:");
+    scanf("%d",&n);
+    
+//    printf("enter mon:");
+    scanf("%d",&n1);
+    
+//    printf("enter year");
+    scanf("%d",&n2);
+    
+//    printf("enter day:");
+    scanf("%d",&nd);
+    
+//    printf("enter mon:");
+    scanf("%d",&n1d);
+    
+//    printf("enter year");
+    scanf("%d",&n2d);
+    
+     if(n2d<n2){
+        
+        a=n2-n2d;
+        
+        a=10000;
+        
+        printf("%d",a);
+        
+    }else if(n2d>n2){
+        
+        printf("%d",a);
+        
+    }else if(n1d<n1){
+        
+            a=n1-n1d;
+            
+            a=a*500;
+            
+            printf("%d",a);
+        
+    }else if(n1d>n1){
+        
+        printf("%d",a);
+        
+        
+    }else if(nd<n){
+        
+
+        a=n-nd;
+        
+        
+        a=a*15;
+        
+        printf("%d",a);
+        
+        
+    }else if(nd>=n || n1d==n1 || n2d==n2){
+        
+        printf("%d",a);
+        
+    }
+    
+
+    
+}
